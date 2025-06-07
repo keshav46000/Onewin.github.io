@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OneWin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-box">
+        <h2>Login to OneWin</h2>
+        <form>
+            <div class="textbox">
+                <input type="text" placeholder="Username" required>
+            </div>
+            <div class="textbox">
+                <input type="password" placeholder="Password" required>
+            </div>
+            <div class="slider-verification">
+                <p>Slide to verify:</p>
+                <input type="range" min="0" max="100" value="0" id="slider">
+            </div>
+            <button type="submit" id="loginBtn" disabled>Login</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
